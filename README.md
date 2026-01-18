@@ -1,6 +1,8 @@
 # TronLink  
 
-TronLink is firstly launched at TRON’s official website and backed by TRON foundation, TronLink is the TRON wallet with the most users, coming in three versions (Chrome Wallet Extension/iOS/Android), and you're looking at the Chrome Wallet Extension for TRON.   
+[![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json?utm_source=badge)](https://codspeed.io/TheBossMuller/tronlink-extension?utm_source=badge)
+
+TronLink is firstly launched at TRON's official website and backed by TRON foundation, TronLink is the TRON wallet with the most users, coming in three versions (Chrome Wallet Extension/iOS/Android), and you're looking at the Chrome Wallet Extension for TRON.   
 
 Main functions:    
 
@@ -36,6 +38,12 @@ $ yarn build:core
 ```sh
 # Build only the popup component
 $ yarn build:popup
+```
+
+## Benchmarking
+```sh
+# Run performance benchmarks
+$ yarn bench
 ```
 
 ## Linting
